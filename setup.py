@@ -21,7 +21,7 @@ setup(name='faderport',
       license="MIT",
       python_requires='~=3.6',  # 3.6 and up but not 4.0
       install_requires=install_requires,
-      url='',
+      url='https://github.com/jayferg/faderport',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Intended Audience :: Developers',
