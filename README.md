@@ -27,7 +27,7 @@ This will use the button LEDs in a dot matrix style.
 (Extending this to the a full alphanumeric character set is an
 exercise left to the reader).
 
-There some methods for 'fancy' display effects, because why not?
+There are some methods for 'fancy' display effects, because why not?
 Check out: `countdown`, `snake`, `blink` and `chase`
 
 > **IMPORTANT NOTE** - There is a 'feature' in the FaderPort that can
