@@ -150,6 +150,8 @@ class FaderPort(ABC):
         """
         self.inport = mido.open_input(find_faderport_input_name(number))
         self.outport = mido.open_output(find_faderport_output_name(number))
+        self.outport.send(mido.Message.from_bytes([0x91, 0, 0x64]))  # A reset message???
+        time.sleep(0.01)
         self.inport.callback = self._message_callback
         self.on_open()
 

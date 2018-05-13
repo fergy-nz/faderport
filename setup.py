@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
     install_requires = f.read()
 
 setup(name='faderport',
-      version='1.0.0',
+      version='1.0.1',
       py_modules=['faderport'],
       package_data={
           '': ['*.txt', '*.md']
